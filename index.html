@@ -4,58 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Blog de Tatan</title>
 </head>
 <body>
     <header>
         <h2>
-                Contenido
+            Contenido
         </h2>
-        <h3>
-            Setup
-        </h3>
         <nav>
+        <details open>
+            <summary>               
+                    Setup              
+            </summary>
             <ol>
                 <li>
-                    Google Chrome
+                   <a href="#google-chrome">
+                       Google Chrome
+                    </a>
                 </li>
                 <li>
-                    Visual Studio Code
-                </li> 
-                <li>
-                    Figma
+                   <a href="#vsc">
+                       Visual Studio Code
+                    </a> 
+                 </li> 
+                 <li>
+                     <a href="#figma">
+                     Figma
+                    </a> 
                 </li>
                 <li>
-                    GitHub
+                    <a href="#git-hub">
+                     GitHub
+                    </a>
                 </li>
             </ol>
-        <h3>
+       </details>
+       <details>
+           <summary>
             Conceptos esenciales del Desarrollo Web
-        </h3>   
-            <ol>
-                <li>
-                    Qué es HTML
-                </li>
-                <li>
-                    Etiquetas
-                </li>
-
-                <li>
-                    DOM
-                </li>
-
-                <li>
-                    Sémantica
-                </li>
-                <li>
-                    Atributos
-                </li>
-                <li>
-                    Qué es CSS
-                </li>
-            </ol>
+           </summary>
+           <ol>
+               <li>
+                   <a href="#html">
+                       Qué es HTML
+                   </a>    
+               </li>
+               <li>
+                   <a href="#etiquetas">
+                       Etiquetas
+                   </a>       
+               </li>
+               <li>
+                   <a href="#dom">
+                       DOM
+                   </a>       
+               </li>
+               <li>
+                   <a href="#semantica">
+                       Sémantica
+                   </a>       
+               </li>
+               <li>
+                   <a href="#atributos">
+                       Atributos
+                   </a>    
+               </li>
+               <li>
+                   <a href="#css">
+                       Qué es CSS
+                   </a>        
+               </li>
+           </ol>
+       </details>
         </nav>
-        
     </header>
     <div>
         <h1>
@@ -71,28 +93,28 @@
                 Setup
             </h2>
              <img src="./images/google-chrome.png" alt="Logo de Google Chrome" title="Logo de Google Chrome">
-            <h3>
+            <h3 id="google-chrome" >
                 Google Chrome
             </h3>      
                 <p>
-                Chrome va a ser<b>el navegador que utilizaremos en el curso</b> por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.
+                Chrome va a ser <b>el navegador que utilizaremos en el curso</b> por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.
                 </p>
              <img src="./images/visual-studio-code.png" alt="Logo de Visual Studio Code" title="Logo de Visual Studio Code">
-            <h3>
+            <h3 id="vsc">
                Visual Studio Code
             </h3>        
                 <p>
-                 Visual Studio Code es el<b>editor de texto más popular y potente del mercado actualmente</b>, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.  
+                 Visual Studio Code es el <b>editor de texto más popular y potente del mercado actualmente</b>, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.  
                 </p>
              <img src="./images/figma.png" alt="Logo de Figma" title="Logo de Figma">
-            <h3>
+            <h3 id="figma">
                 Figma
             </h3>
                 <p>
                 Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para su implementación por su<b>fácil uso</b>porque puede ser usado directamente desde el navegador.  
                 </p>
              <img src="./images/git-hub.png" alt="Lodo de GitHub" title="Logo de GitHub">
-            <h3>
+            <h3 id="git-hub">
                 GitHub
             </h3>
                 <p>
@@ -108,14 +130,14 @@
         <h2>
         Conceptos escenciales del Desarrollo Web
         </h2>
-            <h3>
+            <h3 id="html">
                 Qué es HTML
             </h3>          
                 <p>
-                    Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido. 
+                    Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.  
                 </p>
                 <img src="./images/html.png" alt="Ejemplo Hyper Text Markup Language" title="Ejemplo HTML">     
-            <h3>
+            <h3 id="etiquetas">
                 Etiquetas
             </h3>    
                 <p>
@@ -124,26 +146,26 @@
                 <p>
                     Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.
                 </p>
-            <h3>
+            <h3 id="dom">
                 DOM
             </h3> 
                 <p>
                     El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.   
                 </p>     
                     <img src="./images/dom.png" alt="estructura de arbol que representa al document object model" title="Estructura de arbol del DOM">    
-            <h3>
+            <h3 id="semantica">
                 Semántica
             </h3>    
                 <p>
                     La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido. 
                 </p>
-            <h3>
+            <h3 id="atributos">
                 Atributos
             </h3>        
                 <p>
                     Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src
                 </p>
-            <h3>
+            <h3 id="css">
                 CSS
             </h3>    
                 <P>
@@ -193,7 +215,7 @@
                         </li>
                     </ul>
                 <h3>
-                    Propiedades lògicasa para el modelo de caja:
+                    Propiedades lògicas para el modelo de caja:
                 </h3>        
                 <ul>
                     <li>
@@ -214,12 +236,40 @@
                 </h3>
                     <img src="./images/programar-cambio-mi-vida.png" alt="Programar cambio mi vida" title="Programar cambio mi vida">
     </div>
-            
+          <p>
+            Si tienes alguna pregunta escribeme a 
+            <a href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a>
+          </p>
+
+
+
+<script>
+    const $detailsList = document.querySelectorAll('details')
+    $detailsList.forEach(($details) => {
+    $details.querySelector('summary').addEventListener('click', expand)
+            })
+    function expand () {
+    $detailsList.forEach(($details) => {
+    $details.removeAttribute('open')
+    })
+        }      
+</script>
+
 </body>
 </html>
+        
+         
+        
+        
+        
+        
 
 
 
 
     
+        
             
+                       
+
+                     
